@@ -404,4 +404,4 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	}
 
 
-.col-md-6d.TituloPrincipal {width: 45%}
+.col-md-6.TituloPrincipal {width: 45% !important;}
