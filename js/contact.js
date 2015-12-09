@@ -6,7 +6,7 @@ $(function() {
         );
         $.ajax({
             type: 'POST',
-            url: 'http://aomercado-matheper.rhcloud.com/contact',
+            url: 'http://contact-aomercado.rhcloud.com/contact',
             contentType: "application/json",
             dataType: 'json',
             data: formData,
