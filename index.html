@@ -6,13 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content=""> 
+
+        <link rel="icon" href="images/fav_aomercado.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="images/fav_aomercado.ico" type="image/x-icon"/>
+
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/jquery.funnyText.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
         <title>AoMercado - Conecte-se as Ofertas</title>
 
         <!--[if lt IE 9]>
@@ -21,10 +24,8 @@
         <![endif]-->
 
     </head>
-
-    <body>
-    
-        <header class="head">
+    <body  onload="rola()">
+            <header class="head">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 logo wow fadeIn">
@@ -131,7 +132,7 @@
     </section>
 
     <section class="form-section bgcontato">
-        <div class="container ">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 wow fadeIn">
                     <h2>Quer ser o primeiro a saber?</h2>
@@ -144,6 +145,24 @@
                         <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> &nbsp;&nbsp; Enviar</button>
                     </form>
                     <p class="title-description">Fique tranquilo, não vamos mandar spams.</p>
+                    <br/>
+
+                    <script type="text/javascript">
+                          var posicao = 0;
+                          var mensagem = "oi@aomercado.com";  // Digite entre as aspas o que você quiser, inclusive tags HTML.
+
+                          function rola() {
+                            document.getElementById("lugar").innerHTML = mensagem.substring(posicao,mensagem,length);
+                            posicao++;
+                            if (posicao == mensagem.length) {
+                            posicao == 3;
+                            }
+                            setTimeout("rola()", 320); // O número mencionado pode ser alterado, pois ele indica a velocidade com que a mensagem irá surgir. Quanto maior, mais lento.
+                          }
+                    </script>
+                    <p style="margin-top: 0px;">Se preferir encaminhe um e-mail para -
+                    <a href="mailto:oi@aomercado.com" alt="Diga Oi" title="Diga Oi" style="text-decoration:none;color:#fff;"><b><strong id="lugar"></strong></b></a></p>
+
                 </div>
             </div>
         </div>
@@ -182,6 +201,8 @@
                     <p><i>Co-founder / Designer</i></p>
                     <center><div class="clients-stroke"></div></center>
                     <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy dolor istamet nibh euismod escaptecular."</p>
+                    <!--<p>"Existe o risco que você não pode jamais correr, e existe o risco que não pode deixar de correr.<br><i>Peter Drucker</i>"</p>-->
+                    <!--<p>"Estudante. Apaixonado por design, empreendendorismo, marketing e por fazer a diferença na vida das pessoas."</p>-->
                 </div>
                 <div class="col-md-4 wow fadeInUp">
                     <img src="images/client-2.png" alt="client">
