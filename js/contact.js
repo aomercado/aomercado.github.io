@@ -12,7 +12,8 @@ $(function() {
             data: formData,
             success: function(json) {
                 $(".form-section.bgcontato #contact").toggle();
-                $(".form-section.bgcontato .contact-response").toggle();
+                $(".form-section.bgcontato #invite-message").toggle();
+                $(".form-section.bgcontato #contact-response").toggle();
             },
         });
     });
