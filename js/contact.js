@@ -11,7 +11,8 @@ $(function() {
             dataType: 'json',
             data: formData,
             success: function(json) {
-                console.log("OK");
+                $(".form-section.bgcontato #contact").toggle();
+                $(".form-section.bgcontato .contact-response").toggle();
             },
         });
     });
