@@ -24,9 +24,9 @@
         <![endif]-->
 
     </head>
-    <body  onload="rola()">
+    <body  onload="mailanim()">
             <header class="head">
-            <div class="container">
+            <div class="container bannertopo">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 logo wow fadeIn">
                         <img src="images/logo.png" alt="Logo">
@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 main-content wow fadeInLeft TituloPrincipal">
                         <h1 class="funnytext">OFERTAS DIÁRIAS E COLABORATIVAS</h1>
-                        <p> AoMercado é uma aplicativo social de ofertas instantâneas de supermercados da cidade ou região do usuário.
+                        <p> AoMercado é um aplicativo social de ofertas instantâneas de supermercados da cidade ou região do usuário.
                         <br>Onde as atualizações são criadas de forma colaborativa pelos próprios usuários.</p>
 
                         <button type="button" class="btn btn-default home-btn">
@@ -155,13 +155,13 @@
                           var posicao = 0;
                           var mensagem = "oi@aomercado.com";  // Digite entre as aspas o que você quiser, inclusive tags HTML.
 
-                          function rola() {
+                          function mailanim() {
                             document.getElementById("lugar").innerHTML = mensagem.substring(posicao,mensagem,length);
                             posicao++;
                             if (posicao == mensagem.length) {
                             posicao == 3;
                             }
-                            setTimeout("rola()", 320); // O número mencionado pode ser alterado, pois ele indica a velocidade com que a mensagem irá surgir. Quanto maior, mais lento.
+                            setTimeout("mailanim()", 320); // O número mencionado pode ser alterado, pois ele indica a velocidade com que a mensagem irá surgir. Quanto maior, mais lento.
                           }
                     </script>
                     <p style="margin-top: 0px;">Se preferir encaminhe um e-mail para -
@@ -185,25 +185,25 @@
                 <div class="col-md-4 wow fadeInUp">
                     <img src="images/client-1.png" alt="client">
                     <h4>Patrick Padilha</h4>
-                    <p><i>Co-founder / Designer</i></p>
+                    <p><i>Co-founder</i></p>
                     <center><div class="clients-stroke"></div></center>
-                    <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy dolor istamet nibh euismod escaptecular."</p>
+                    <p>"Gestão de Clientes, Design e Marketing."</p>
                     <!--<p>"Existe o risco que você não pode jamais correr, e existe o risco que não pode deixar de correr.<br><i>Peter Drucker</i>"</p>-->
                     <!--<p>"Estudante. Apaixonado por design, empreendendorismo, marketing e por fazer a diferença na vida das pessoas."</p>-->
                 </div>
                 <div class="col-md-4 wow fadeInUp">
                     <img src="images/client-2.png" alt="client">
                     <h4>Matheus</h4>
-                    <p><i>Co-founder / Programador</i></p>
+                    <p><i>Co-founder</i></p>
                     <center><div class="clients-stroke"></div></center>
-                    <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy dolor istamet nibh euismod escaptecular."</p>
+                    <p>"Comunicação, desenvolvimento tecnológico e conhecimento."</p>
                 </div>
                 <div class="col-md-4 wow fadeInUp">
                     <img src="images/client-3.png" alt="client">
                     <h4>Joelmir</h4>
-                    <p><i>Co-founder / Programador</i></p>
+                    <p><i>Co-founder</i></p>
                     <center><div class="clients-stroke"></div></center>
-                    <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy dolor istamet nibh euismod escaptecular."</p>
+                    <p>"Desenvolvimento tecnológico, infraestrutura e inovação."</p>
                 </div>
             </div>
         </div>

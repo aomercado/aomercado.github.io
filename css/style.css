@@ -405,3 +405,50 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 
 .col-md-6.TituloPrincipal {width: 40% !important;}
+
+
+/* AJUSTES RESPONSIVO */
+
+@media (min-width: 768px) and (max-width: 991px) {
+		body .bannertopo {
+			margin-right: 0px;
+			margin-left: 40px;
+    		padding-right: 0px;
+		}
+
+		.phone-mockup{
+		    padding-left: 0px !important;
+		    margin: 110px 0px 0px 0px;
+		    position: absolute;
+		    display: inline-block;
+		}
+		.phone-mockup .img-responsive{
+		    max-width: none;
+		    bottom: 0px ;
+		}
+
+		.destaquehome .col-sm-4 {
+    		width: 29.333333%;
+			padding-right: 0px;
+    	}
+
+		.destaquehome .appmockup {text-align: left;}
+
+		.features-right {margin-left: 68px;}
+
+		.appmockup .phone-img {
+		    position: absolute;
+		    text-align: center;
+		    transform: translate(19px, 110px);
+		}
+}
+
+@media screen and (max-width: 767px) {
+	.col-md-6.TituloPrincipal {
+	    width: 99% !important;
+	    text-align: center;
+    }
+    .form-inline .form-control {width: 100%;}
+    .destaquehome .row .features-left p {margin-left: 50px;}
+    .destaquehome .row .features-left div {text-align: left;}
+}
