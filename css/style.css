@@ -418,10 +418,13 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 		.phone-mockup{
 		    padding-left: 0px !important;
-		    margin: 110px 0px 0px 0px;
-		    position: absolute;
-		    display: inline-block;
+		    margin: 87px 0px 0px 0px;
+    		position: absolute;
+    		display: inline-block;
+    		max-width: 270px;
 		}
+
+		.bannertopo .phone-mockup {margin: 110px 0px 0px 22px;}		
 		.phone-mockup .img-responsive{
 		    max-width: none;
 		    bottom: 0px ;
@@ -433,13 +436,16 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
     	}
 
 		.destaquehome .appmockup {text-align: left;}
-
-		.features-right {margin-left: 68px;}
+		
+		.features-right.icladi {margin-left: 90px;}
+		.features-right {margin-left: 0px;padding-left: 0px;}
+		.features-right h4, .features-right p {padding-left: 50px;}
 
 		.appmockup .phone-img {
 		    position: absolute;
 		    text-align: center;
-		    transform: translate(19px, 110px);
+		    transform: translate(19px, 85px);
+    		max-width: 234px;
 		}
 }
 
@@ -452,3 +458,30 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
     .destaquehome .row .features-left p {margin-left: 50px;}
     .destaquehome .row .features-left div {text-align: left;}
 }
+
+
+@media screen and (max-width: 479px) {
+	.logo img {max-width: 215px;}
+	.social img {
+   		margin-top: 75px;
+   		width:42px;
+   		height:auto;
+    }
+	.phone-mockup img {height: auto;}
+	.home-btn {
+		font-size: 14px;
+		padding: 15px 30px;
+		margin-left: 20px;
+	}
+	.footer-info p{font-size: 12px}
+
+}
+
+
+
+
+
+
+
+
+
