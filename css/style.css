@@ -409,7 +409,10 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 .col-md-6.TituloPrincipal {width: 40% !important;}
 
 
-#mercado_vantagens {
+#mercado_vantagens h4:hover{color: #fff;}
+#mercado_vantagens p:hover{color: #fff;}
+
+#mercado_vantagens{
 	background: #F24F46;
 	color:#fff;
 	width:100%;
