@@ -20,11 +20,11 @@ $(function() {
     $('form#marketcontact').on('submit', function (e) {
         e.preventDefault();
         var formData = JSON.stringify({
-          'name': $(this).find('name').val(),
+          'name': $(this).find('#name').val(),
           'market': $(this).find('#market').val(),
           'mail': $(this).find('#mail').val(),
-          'phone': $(this).find('phone').val(),
-          'message': $(this).find('message').val(),
+          'phone': $(this).find('#phone').val(),
+          'message': $(this).find('#message').val(),
         });
         $.ajax({
             type: 'POST',
