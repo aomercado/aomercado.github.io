@@ -221,16 +221,18 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	height: 46px;
 	background-color: #545151;
 	color: #fff;
-	border-color: #666666;
+	border:none;
 }
 
 .form-inline .btn{
 	width: 120px;
 	height: 46px;
-	background-color: #545151;
+	background-color: #F24F46;
 	color: #fff;
-	border-color: #666666;
+	border:none;
+	text-transform: uppercase;
 }
+.form-inline .btn:hover{cursor: pointer}
 
 .form-section{
 	background-image: url('../images/bg-img-1.jpg');
@@ -240,8 +242,8 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
     border-width: 0;
     width: auto;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #fff;
 }
 
@@ -395,7 +397,7 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	max-width: 280px;
 }
 
-.bgcontato{background: #F24F46 !important;}
+.bgcontato{background: #333 !important;}
 
 .destaquehome .icones i{
 	font-size: 2.3em;
@@ -405,6 +407,50 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 
 .col-md-6.TituloPrincipal {width: 40% !important;}
+
+
+#mercado_vantagens h4:hover{color: #fff;}
+#mercado_vantagens p:hover{color: #fff;}
+
+#mercado_vantagens{
+	background: #F24F46;
+	color:#fff;
+	width:100%;
+}
+
+#mercado_vantagens h1{
+	margin-top: 40px;
+    height: 90px;
+    padding: 50px 0px 0px 0px;
+	background: url("../images/market2.png") center center no-repeat;
+}
+
+#mercado_vantagens .destaquesmercado_right{margin-right: 3%;margin-left: 0px;}
+#mercado_vantagens .destaquesmercado_left{margin-left: 3%;margin-right: 0px;}
+
+#mercado_vantagens i, #mercado_vantagens p{color:#fff;}
+#mercado_vantagens .form-group{width:49%;margin:6px 4px;}
+#mercado_vantagens .form-control {
+	width:100%;
+	background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    border:none;
+    }
+textarea {resize: none;}
+
+#mercado_vantagens .form-message{width:100%;margin:6px 2px;}
+#mercado_vantagens .form-message .form-control{height:120px;}
+#mercado_vantagens .btn{
+	margin: 2% 42%;
+    width: 175px;
+    height: 51px;
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+	}
 
 
 /* AJUSTES RESPONSIVO */
@@ -447,6 +493,9 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 		    transform: translate(19px, 85px);
     		max-width: 234px;
 		}
+
+		#mercado_vantagens .form-group {
+    width: 100%;}
 }
 
 @media screen and (max-width: 767px) {
@@ -458,6 +507,8 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
     .destaquehome .row .features-left p {margin-left: 50px;}
     .destaquehome .row .features-left div {text-align: left;}
 }
+
+
 
 
 @media screen and (max-width: 479px) {

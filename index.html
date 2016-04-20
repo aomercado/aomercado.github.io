@@ -83,6 +83,49 @@
         </div>
     </section> -->
 
+    
+
+    <section class="form-section bgcontato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeIn" style="text-align:left;">
+                    <h2 id="invite-message">Quer ser o primeiro a saber?</h2>
+                    <div id="contact-response" style="display: none;">
+                        <h2><i class="fa fa-paper-plane-o"></i></h2>
+                        <h2>OBRIGADO POR SE CADASTRAR!</h2>
+                    </div>
+                        <p class="title-description" style="margin-bottom: 0px;">Você receberá um e-mail sobre o lançamento.</p>
+                        <script type="text/javascript">
+                          var posicao = 0;
+                          var mensagem = "oi@aomercado.com";  // Digite entre as aspas o que você quiser, inclusive tags HTML.
+
+                          function mailanim() {
+                            document.getElementById("lugar").innerHTML = mensagem.substring(posicao,mensagem,length);
+                            posicao++;
+                            if (posicao == mensagem.length) {
+                            posicao == 3;
+                            }
+                            setTimeout("mailanim()", 320); // O número mencionado pode ser alterado, pois ele indica a velocidade com que a mensagem irá surgir. Quanto maior, mais lento.
+                          }
+                    </script>
+                    <p style="margin-top: 0px;">Se preferir encaminhe um e-mail para -
+                    <a href="mailto:oi@aomercado.com" alt="Diga Oi" title="Diga Oi" style="text-decoration:none;color:#fff;"><b><strong id="lugar"></strong></b></a></p>
+                </div>
+                <div class="col-md-6 wow fadeIn">
+                    <form id="contact" method="post" class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="mail">Email address</label>
+                            <input type="email" class="form-control" id="mail" placeholder="Cadastre seu e-mail">
+                        </div>
+                        <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> &nbsp;&nbsp; Enviar</button>
+                    </form>
+                    <p class="title-description" style="font-size:14px;text-align:right;">*Fique tranquilo, não mandamos spams.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="container features destaquehome">
         <div class="row">
             <div class="col-md-12 features-title wow fadeIn">
@@ -133,49 +176,95 @@
         </div>
     </section>
 
-    <section class="form-section bgcontato">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeIn">
-                    <h2 id="invite-message">Quer ser o primeiro a saber?</h2>
-                    <div id="contact-response" style="display: none;">
-                        <h2><i class="fa fa-paper-plane-o"></i></h2>
-                        <h2>OBRIGADO POR SE CADASTRAR!</h2>
-                    </div>
-                    <center>
-                        <div class="white-stroke"></div>
-                        <p class="title-description">Enviaremos um email para você<br>assim que o aplicativo estiver disponível para download.</p>
-                    </center>
-                    <form id="contact" method="post" class="form-inline">
-                        <div class="form-group">
-                            <label class="sr-only" for="mail">Email address</label>
-                            <input type="email" class="form-control" id="mail" placeholder="Cadastre seu e-mail">
-                        </div>
-                        <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> &nbsp;&nbsp; Enviar</button>
-                    </form>
-                    <p class="title-description">Fique tranquilo, não vamos mandar spams.</p>
-                    <br/>
-
-                    <script type="text/javascript">
-                          var posicao = 0;
-                          var mensagem = "oi@aomercado.com";  // Digite entre as aspas o que você quiser, inclusive tags HTML.
-
-                          function mailanim() {
-                            document.getElementById("lugar").innerHTML = mensagem.substring(posicao,mensagem,length);
-                            posicao++;
-                            if (posicao == mensagem.length) {
-                            posicao == 3;
-                            }
-                            setTimeout("mailanim()", 320); // O número mencionado pode ser alterado, pois ele indica a velocidade com que a mensagem irá surgir. Quanto maior, mais lento.
-                          }
-                    </script>
-                    <p style="margin-top: 0px;">Se preferir encaminhe um e-mail para -
-                    <a href="mailto:oi@aomercado.com" alt="Diga Oi" title="Diga Oi" style="text-decoration:none;color:#fff;"><b><strong id="lugar"></strong></b></a></p>
-
+    
+    <section id="mercado_vantagens" class="container features destaquehome">
+        <div class="row">
+            <div class="col-md-12 features-title wow fadeIn">
+                <h1>VOCÊ É UM MERCADO?</h1>
+                <center><div class="dark-stroke"></div></center>
+                <p class="title-description">Confira as vantagens de se aproximar de seus consumidores.</p>
+                <p class="title-description"><i><b>CADASTRE-SE E ENTRAREMOS EM CONTATO.</b></i></p>
+            </div>
+          <div class="col-md-4 col-sm-4 features-right icones destaquesmercado_left">
+                <div class="features-list-4 wow fadeInRight">
+                    <i class="fa fa-bullhorn"></i>
+                    <h4>Compatilhe suas Ofertas</h4>
+                    <p>Destaque-se compartilhando seus melhores preços.</p>
+                </div>
+                <div class="features-list-5 wow fadeInRight">
+                    <i class="fa fa-heart"></i>
+                    <h4>Fidelização de Clientes</h4>
+                    <p>Aquele cliente que vez as vezes, agora vai vir sempre.</p>
+                </div>
+                <div class="features-list-6 wow fadeInRight">
+                    <i class="fa fa-line-chart"></i>
+                    <h4>Instântaneo e Diário</h4>
+                    <p>Você notará que o produto que ofertou trouxe clientes.</p>
                 </div>
             </div>
+            <div class="col-md-3 col-sm-4 appmockup wow fadeInUp">
+                <img class="phone-mockup" src="images/iphonemockup.png" alt="phone mockup">
+                <img class="phone-img" src="images/appimage.png" alt="phone image">
+            </div>
+
+            <div class="col-md-4 col-sm-4 features-right icones icladi destaquesmercado_right">
+                <div class="features-list-4 wow fadeInRight">
+                    <i class="fa fa-hand-peace-o"></i>
+                    <h4>Compromisso com seu Público</h4>
+                    <p>Não mais um cliente, um fã do seu mercado</p>
+                </div>
+                <div class="features-list-5 wow fadeInRight">
+                    <i class="fa fa-commenting"></i>
+                    <h4>Proximidade do Consumidor</h4>
+                    <p>Eles irão até suas ofertas e você será assunto.</p>
+                </div>
+                <div class="features-list-6 wow fadeInRight">
+                    <i class="fa fa-smile-o"></i>
+                    <h4>Torne-se um apoiador da Sustentabilidade</h4>
+                    <p>Nosso aplicativo ajuda a diminuir o número de panfletos nas ruas.</p>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow fadeIn">
+                        <form id="contact" method="post" class="form-inline">
+                            <div class="form-group">
+                                <label class="sr-only" for="text">Nome Completo</label>
+                                <input type="text" class="form-control" id="text" placeholder="Nome Completo">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="text">Estabelecimento</label>
+                                <input type="text" class="form-control" id="text" placeholder="Estabelecimento">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="mail">E-mail</label>
+                                <input type="email" class="form-control" id="mail" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="text">Telefone</label>
+                                <input type="text" class="form-control" id="telefone" />
+                            </div>
+                            <div class="form-message">
+                                <label class="sr-only" for="text">Mensagem</label>
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Digite sua mensagem:"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-default">
+                                    <i class="fa fa-paper-plane-o"></i> &nbsp;&nbsp; Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
+
 
     <section class="our-clients">
         <div class="container">
@@ -197,6 +286,7 @@
                     <!--<p>"Estudante. Apaixonado por design, empreendendorismo, marketing e por fazer a diferença na vida das pessoas."</p>-->
                 </div>
                 <div class="col-md-4 wow fadeInUp">
+
                     <img src="images/client-2.png" alt="client">
                     <h4>Matheus Pereira</h4>
                     <p><i>Co-founder</i></p>
@@ -245,6 +335,7 @@
 
         <!-- scripts starts here-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://digitalbush.com/wp-content/uploads/2014/10/jquery.maskedinput.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.funnyText.js"></script>
         <script src="js/wow.min.js"></script>
@@ -293,6 +384,22 @@
               ga('create', 'UA-71699555-1', 'auto');
               ga('send', 'pageview');
 
+            </script>
+            <script>
+                jQuery("input#telefone")
+                .mask("(99) 9999-9999?9")
+                .focusout(function (event) {  
+                    var target, phone, element;  
+                    target = (event.currentTarget) ? event.currentTarget : event.srcElement;  
+                    phone = target.value.replace(/\D/g, '');
+                    element = $(target);  
+                    element.unmask();  
+                    if(phone.length > 10) {  
+                        element.mask("(99) 99999-999?9");  
+                    } else {  
+                        element.mask("(99) 9999-9999?9");  
+                    }  
+                });
             </script>
 
     </body>
