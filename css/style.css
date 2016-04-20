@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	width: 80px;
 	margin-top: 12px;
 	margin-bottom: 18px;
-	
+
 }
 
 .features-left{
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	width: 80px;
 	margin-top: 12px;
 	margin-bottom: 18px;
-	
+
 }
 
 .our-clients{
@@ -276,12 +276,12 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	border-bottom: 2px solid #6b6868;
 	width: 80px;
 	margin-top: 12px;
-	margin-bottom: 14px;	
+	margin-bottom: 14px;
 }
 
 .our-clients div{
 	padding-right: 30px;
-	padding-left: 30px;	
+	padding-left: 30px;
 }
 
 .clients-list div:hover h4{
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 .faq h4{
 	text-transform: none;
-	color: #6B6868;	
+	color: #6B6868;
 }
 
 .faq-title{
@@ -397,7 +397,21 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 	max-width: 280px;
 }
 
-.bgcontato{background: #333 !important;}
+.bgcontato{
+  background: #333 !important;
+  padding: 50px 0;
+}
+
+#usercontact{
+  text-align: right;
+}
+#user-contact-response{
+  text-align: right;
+  padding-bottom: 5px;
+}
+#user-contact-response i{
+  margin-left: 15px;
+}
 
 .destaquehome .icones i{
 	font-size: 2.3em;
@@ -408,6 +422,14 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 .col-md-6.TituloPrincipal {width: 40% !important;}
 
+#market-contact-response{
+  text-align: center;
+  padding: 107px 0;
+}
+
+#market-contact-response i {
+  margin-left: 15px;
+}
 
 #mercado_vantagens h4:hover{color: #fff;}
 #mercado_vantagens p:hover{color: #fff;}
@@ -470,7 +492,7 @@ textarea {resize: none;}
     		max-width: 270px;
 		}
 
-		.bannertopo .phone-mockup {margin: 110px 0px 0px 22px;}		
+		.bannertopo .phone-mockup {margin: 110px 0px 0px 22px;}
 		.phone-mockup .img-responsive{
 		    max-width: none;
 		    bottom: 0px ;
@@ -482,7 +504,7 @@ textarea {resize: none;}
     	}
 
 		.destaquehome .appmockup {text-align: left;}
-		
+
 		.features-right.icladi {margin-left: 90px;}
 		.features-right {margin-left: 0px;padding-left: 0px;}
 		.features-right h4, .features-right p {padding-left: 50px;}
@@ -527,12 +549,3 @@ textarea {resize: none;}
 	.footer-info p{font-size: 12px}
 
 }
-
-
-
-
-
-
-
-
-

@@ -11,9 +11,8 @@ $(function() {
             dataType: 'json',
             data: formData,
             success: function(json) {
-                $(".form-section.bgcontato #contact").toggle();
-                $(".form-section.bgcontato #invite-message").toggle();
-                $(".form-section.bgcontato #contact-response").toggle();
+                $("#usercontact").toggle();
+                $("#user-contact-response").toggle();
             },
         });
     });
@@ -33,9 +32,8 @@ $(function() {
             dataType: 'json',
             data: formData,
             success: function(json) {
-                $(".form-section.bgcontato #contact").toggle();
-                $(".form-section.bgcontato #invite-message").toggle();
-                $(".form-section.bgcontato #contact-response").toggle();
+              $("#marketcontact").toggle();
+              $("#market-contact-response").toggle();
             },
         });
     });
