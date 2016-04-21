@@ -422,6 +422,9 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 
 .col-md-6.TituloPrincipal {width: 40% !important;}
 
+#marketcontact{
+    text-align: center;
+}
 #market-contact-response{
   text-align: center;
   padding: 107px 0;
@@ -451,7 +454,11 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
 #mercado_vantagens .destaquesmercado_left{margin-left: 3%;margin-right: 0px;}
 
 #mercado_vantagens i, #mercado_vantagens p{color:#fff;}
-#mercado_vantagens .form-group{width:49%;margin:6px 4px;}
+#mercado_vantagens .form-group{
+    margin: 0px;
+    width: 49%;
+    padding: 7px;
+}
 #mercado_vantagens .form-control {
 	width:100%;
 	background-color: #fff;
@@ -461,7 +468,12 @@ h1, h2, h3, h4, h5, h6, p, img, .btn {
     }
 textarea {resize: none;}
 
-#mercado_vantagens .form-message{width:100%;margin:6px 2px;}
+#mercado_vantagens .form-message{
+    width: 98%;
+    margin: 0px;
+    display: inline-block;
+    padding: 5px;
+}
 #mercado_vantagens .form-message .form-control{height:120px;}
 #mercado_vantagens .btn{
 	margin: 2% 42%;
@@ -516,8 +528,6 @@ textarea {resize: none;}
     		max-width: 234px;
 		}
 
-		#mercado_vantagens .form-group {
-    width: 100%;}
 }
 
 @media screen and (max-width: 767px) {
